@@ -2,7 +2,12 @@
     "name": "W7RN",
     "description": "Radio Dashboard",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-contrib-ui-svg": "2.3.3",
+        "node-red-dashboard": "3.6.2",
+        "node-red-node-openweathermap": "0.5.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
