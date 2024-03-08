@@ -45,9 +45,7 @@
             "d03e422d99680eab"
         ],
         "x": 294,
-        "y": 159,
-        "w": 352,
-        "h": 142
+        "y": 159
     },
     {
         "id": "2dde876cc84532d4",
@@ -68,9 +66,7 @@
             "825d8f7712fcce41"
         ],
         "x": 254,
-        "y": 659,
-        "w": 452,
-        "h": 162
+        "y": 659
     },
     {
         "id": "c82f0de63f046808",
@@ -96,9 +92,7 @@
             "e36bc02a771d60ac"
         ],
         "x": 14,
-        "y": 359,
-        "w": 712,
-        "h": 262
+        "y": 359
     },
     {
         "id": "e27485930d1abd7e",
@@ -113,9 +107,7 @@
             "300929e7f8f6ae3d"
         ],
         "x": 34,
-        "y": 159,
-        "w": 212,
-        "h": 142
+        "y": 159
     },
     {
         "id": "0f905b9514baaf51",
@@ -144,9 +136,7 @@
             "e0e49128bed5b1f8"
         ],
         "x": 734,
-        "y": 39,
-        "w": 462,
-        "h": 362
+        "y": 39
     },
     {
         "id": "12f51ddb14a96a7e",
@@ -164,9 +154,7 @@
             "9841599f27196f20"
         ],
         "x": 14,
-        "y": 639,
-        "w": 212,
-        "h": 222
+        "y": 639
     },
     {
         "id": "828c4b3a29d67b2f",
@@ -186,9 +174,7 @@
             "d1b46bdd76cfca15"
         ],
         "x": 754,
-        "y": 459,
-        "w": 332,
-        "h": 362
+        "y": 459
     },
     {
         "id": "f32b4b3b4e8f4f76",
@@ -413,9 +399,10 @@
             "878027b1bf90a25f",
             "8bb4f7b01229e49a",
             "6304523082088537",
-            "53d6286fa0fb3cda"
+            "53d6286fa0fb3cda",
+            "878027b1bf90a25f"
         ],
-        "x": 234,
+        "x": 214,
         "y": 134,
         "w": 952,
         "h": 172
@@ -1877,7 +1864,6 @@
         "name": "function 3",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)),\n    \"rotorID\" : \"R7\" ,\n    \"bands\" : \"17/12 (6)\",\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -1938,7 +1924,6 @@
         "name": "function 4",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)) ,\n    \"rotorID\" : \"R1\" ,\n    \"bands\" : \"80/15 (6)\" , \n    \"bandwidth\" : 30  , //3db \n    \"timestamp\" : new Date().toString() \n    }\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2038,7 +2023,6 @@
         "name": "function 5",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)),\n    \"rotorID\" : \"R2\" ,\n    \"bands\" : \"40 HI\" ,\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2099,7 +2083,6 @@
         "name": "function 6",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)) ,\n    \"rotorID\" : \"R3\" ,\n    \"bands\" : \"40 LO\",\n    \"bandwidth\" : 30 , //3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2160,7 +2143,6 @@
         "name": "function 7",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)) ,\n    \"rotorID\" : \"R4\" ,\n    \"bands\" : \"20/HI 15 (30)\",\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2221,7 +2203,6 @@
         "name": "function 8",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)),\n    \"rotorID\" : \"R5\" ,\n    \"bands\" : \"10/40\",\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2282,7 +2263,6 @@
         "name": "function 9",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)) ,\n    \"rotorID\" : \"R6\" ,\n    \"bands\" : \"20 W\",\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2343,7 +2323,6 @@
         "name": "function 10",
         "func": "msg.payload = {\n    \"heading\": Math.round(Number(msg.payload)) ,\n    \"rotorID\" : \"R8\" ,\n    \"bands\" : \"EAST 10\" ,\n    \"bandwidth\" : 30 ,//3db\n    \"timestamp\" : new Date().toString() \n    };\nif (!(isNaN(msg.payload.heading))){\n    return msg;\n};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -2577,7 +2556,6 @@
         "name": "Turn R3",
         "func": "//msg.payload = \"SET_SWITCH\u001fRadio-1\u001f\" + msg.payload\n//msg.payload = \"POINT\u001fR3 40 LOW\u001f\" + 114.7 +\"\u001f0\u001f0\"\nmsg.payload = \"TURN\u001fR3 40 LOW\u001f\" + 115.0\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3530,7 +3508,6 @@
         "name": "function 11",
         "func": "// Stop commands for each rotor. \nif (msg.payload == \"R1_Stop\"){\n    msg.payload = \"STOP\u001fR1 80/15 (6)\u001f\";\n}\nelse if (msg.pyaload == \"R2_Stop\"){\n    msg.payload = \"STOP\u001fR2 40 HIGH\u001f\";\n}\nelse if (msg.pyaload == \"R3_Stop\"){\n    msg.payload = \"STOP\u001fR3 40 LOW\u001f\";\n}\nelse if (msg.pyaload == \"R4_Stop\"){\n    msg.payload = \"STOP\u001fR4 20/HI 15 (30)\u001f\";\n}\nelse if (msg.pyaload == \"R5_Stop\"){\n    msg.payload = \"STOP\u001fR5 10/40\u001f\";\n}\nelse if (msg.pyaload == \"R6_Stop\"){\n    msg.payload = \"STOP\u001fR6 20 WEST\u001f\";\n}\nelse if (msg.pyaload == \"R7_Stop\"){\n    msg.payload = \"STOP\u001fR7 17/12 (6)\u001f\";\n}\nelse if (msg.pyaload == \"R8_Stop\"){\n    msg.payload = \"STOP\u001fR8 EAST 10\u001f\";\n}\nelse{\n    node.send(\"Unkown STOP Message\")\n}\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3551,7 +3528,6 @@
         "name": "function 12",
         "func": "// Stop commands for each rotor. \nvar num = msg.payload;\nvar hd = num.toString();\n\nif (msg.ractive == \"R1\"){\n    msg.payload = \"TURN\u001fR1 80/15 (6)\u001f\" + hd;\n}\nelse if (msg.ractive == \"R2\"){\n    msg.payload = \"TURN\u001fR2 40 HIGH\u001f\" + hd;\n}\nelse if (msg.ractive == \"R3\"){\n    msg.payload = \"TURN\u001fR3 40 LOW\u001f\" + hd;\n}\nelse if (msg.ractive == \"R4_Stop\"){\n    msg.payload = \"TURN\u001fR4 20/HI 15 (30)\u001f\" +hd;\n}\nelse if (msg.ractive == \"R5\"){\n    msg.payload = \"TURN\u001fR5 10/40\u001f\" + hd;\n}\nelse if (msg.ractive == \"R6\"){\n    msg.payload = \"TURN\u001fR6 20 WEST\u001f\" + hd;\n}\nelse if (msg.ractive == \"R7\"){\n    msg.payload = \"TURN\u001fR7 17/12 (6)\u001f\" + hd;\n}\nelse if (msg.ractive == \"R8\"){\n    msg.payload = \"TURN\u001fR8 EAST 10\u001f\" + hd;\n}\nelse{\n    node.send(\"UNKNOWN TRUN COMMAND\")\n}\n\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3667,7 +3643,6 @@
         "name": "function 13",
         "func": "// last time vector\nvar thing;\n// R1\nif ((msg.payload.rotorID  == \"R1\" )||(msg.payload.rotorID  == \"all\")){\n    if(msg.payload.rotorID == \"R1\"){\n        flow.r1Last = 0;\n        msg = {\n            \"payload\" : true\n        }\n    }\n    else{\n        flow.r1Last += flow.r1Last\n    }\n    if(flow.r1last > 2){\n        //return(false, null, null, null, null, null, null, null);\n    }\n}\n// R2\nelse if (msg.payload.rotorID  == \"R2\") {\n\n}\n// R3\nelse if (msg.payload.rotorID  == \"R3\") {\n\n}\n// R4\nelse if (msg.payload.rotorID  == \"R4\") {\n\n}\n// R5\nelse if (msg.payload.rotorID  == \"R5\") {\n\n}\n// R6\nelse if (msg.payload.rotorID  == \"R6\") {\n\n}\n//R7\nelse if (msg.payload.rotorID == \"R7\" ){\n\n}\n// R8\nelse if (msg.payload.rotorID  == \"R8\") {\n\n}\nreturn thing;",
         "outputs": 8,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3772,7 +3747,6 @@
         "name": "function 16",
         "func": "// watchdog timer\nmsg.payload ={\n    \"rotorID\" : \"all\" ,\n    \"timestamp\" : msg.payload.toString() \n}\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -3860,12 +3834,11 @@
         "name": "Draw",
         "func": "/*\n * Calculate x and y in circle's circumference\n * @param {Object} input - The input parameters\n * @param {number} input.radius - The circle's radius\n * @param {number} input.angle - The angle in degrees\n * @param {number} input.cx - The circle's origin x\n * @param {number} input.cy - The circle's origin y\n * @returns {Array[number,number]} The calculated x and y\n */\nfunction pointsOnCircle({ radius, angle, cx, cy }){\n  angle = angle * ( Math.PI / 180 ); // Convert from Degrees to Radians\n  const x = cx + radius * Math.cos(angle);\n  const y = cy + radius * Math.sin(angle);\n  return [ x, y ];\n}\n\nvar sendm = { payload: \"\" };\n// AZ pointer\nif (msg.payload.heading != last) {\n    var last = msg.payload.heading;\n    //node.warn(\"new Last\");// was used for debugging. \n    var angle = msg.payload.heading  - 90; // Convert angle to North as 0\n    var coord = pointsOnCircle({ radius: 225, angle: angle, cx: 250, cy: 250 });\n    var x2 = coord[0].toString();\n    var y2 = coord[1].toString();\n\n    coord = pointsOnCircle({ radius: 225, angle: angle-10, cx: 250, cy: 250 });\n    var beamx2a = coord[0].toString();\n    var beamy2a = coord[1].toString();\n    coord = pointsOnCircle({ radius: 225, angle: angle+10, cx: 250, cy: 250 });\n    var beamx2b = coord[0].toString();\n    var beamy2b = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamline\"\n        },\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamwidth\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"polygon\",\n            \"elementId\": \"beamwidth\",\n            \"elementAttributes\": {\n                \"points\": \"250,250 \" + beamx2a + \",\" + beamy2a + \" \" + beamx2b + \",\" + beamy2b\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"green;fill-opacity:0.25\",\n                \"stroke\": \"black;stroke-width:1px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"my content\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"beamline\",\n            \"elementAttributes\": {\n                \"x1\": \"250\",\n                \"y1\": \"250\",\n                \"x2\": x2,\n                \"y2\": y2\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"black;stroke-width:2px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"Beam antenna\"\n        },\n\n    ]\n    node.send(sendm);\n}\n// Target mark\nif (msg.payload.hasOwnProperty(\"tdeg\")) {\n    angle = msg.payload.tdeg - 90;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        },\n        {  \n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"tdeg\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"orange;stroke-width:20px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        }\n    ]\n    node.send(sendm);\n}\n// Forward limit\nif (msg.payload.hasOwnProperty(\"lim2\")) {\n    angle = msg.payload.lim2 - 90.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim2\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"blue;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        }\n    ]\n    node.send(sendm);\n}\n// Reverse limit\nif (msg.payload.hasOwnProperty(\"lim1\")) {\n    angle = msg.payload.lim1 - 89.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim1\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"red;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        }\n    ]\n    node.send(sendm);\n}\n// Distance to Locator\nif (msg.payload.hasOwnProperty(\"dxqrb\")) {\n    var qrb = msg.payload.dxqrb;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"15\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"yellow\"\n            },\n            \"textContent\": \"QRB: \" + qrb + \"KM\"\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        }\n    ]\n    node.send(sendm);\n}\n// Fault messages\nif (msg.payload.hasOwnProperty(\"fmsg\")) {\n    var fmsg = msg.payload.fmsg;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"480\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"red\"\n            },\n            \"textContent\": fmsg\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        }\n    ]\n    node.send(sendm);\n}\n\nreturn;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 550,
+        "x": 530,
         "y": 260,
         "wires": [
             [
@@ -3874,10 +3847,131 @@
         ]
     },
     {
+        "id": "5bbf0d1fdafe1752",
+        "type": "function",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "point to angle",
+        "func": "function pointToAngle(cx, cy, ex, ey) {\n  var dy = ey - cy;\n  var dx = ex - cx;\n  var theta = Math.atan2(dy, dx); // range (-PI, PI]\n  theta *= 180 / Math.PI; // rads to degs, range (-180, 180]\n  if (theta < 0) theta = 360 + theta; // range [0, 360)\n  return theta;\n}\n//var angle = '';\n//if (msg.elementId == \"image\" && msg.event.type == \"click\"){\n//    angle = pointToAngle(250, 250, msg.event.svgX, msg.event.svgY);\n//    angle = angle+90;\n//    if (angle > 360) {\n//      angle = angle-'360'};\n//}\n\nmsg.payload = Math.round('angle');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 260,
+        "wires": [
+            [
+                "53d6286fa0fb3cda"
+            ]
+        ]
+    },
+    {
+        "id": "6914f18f482d24cf",
+        "type": "link in",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "link in 1",
+        "links": [
+            "d7daa80038261ca3"
+        ],
+        "x": 255,
+        "y": 220,
+        "wires": [
+            [
+                "d2deb76f9b763c46"
+            ]
+        ]
+    },
+    {
+        "id": "d2deb76f9b763c46",
+        "type": "function",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "function 2",
+        "func": "// R1\nif (msg.payload.rotorID  == \"R1\" ){\n    return[msg, null, null, null, null, null, null, null];\n}\n// R2\nif (msg.payload.rotorID  == \"R2\") {\n    return [null, msg, null, null, null, null, null, null];\n}\n// R3\nif (msg.payload.rotorID  == \"R3\") {\n    return [null, null, msg, null, null, null, null, null];\n}\n// R4\nif (msg.payload.rotorID  == \"R4\") {\n    return [null, null, null, msg, null, null, null, null];\n}\n// R5\nif (msg.payload.rotorID  == \"R5\") {\n    return [null, null, null, null, msg, null, null, null];\n}\n// R6\nif (msg.payload.rotorID  == \"R6\") {\n    return [null, null, null, null, null, msg, null, null];\n}\n//R7\nif (msg.payload.rotorID == \"R7\" ){\n    return[null, null, null, null, null, null, msg, null];\n}\n// R8\nif (msg.payload.rotorID  == \"R8\") {\n    return [null, null, null, null, null, null, null, msg];\n}\n\n//return msg;",
+        "outputs": 8,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [
+                "6304523082088537"
+            ],
+            [],
+            [],
+            [
+                "362867492b4029d3"
+            ]
+        ]
+    },
+    {
+        "id": "8bb4f7b01229e49a",
+        "type": "function",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "point to angle",
+        "func": "function pointToAngle(cx, cy, ex, ey) {\n  var dy = ey - cy;\n  var dx = ex - cx;\n  var theta = Math.atan2(dy, dx); // range (-PI, PI]\n  theta *= 180 / Math.PI; // rads to degs, range (-180, 180]\n  if (theta < 0) theta = 360 + theta; // range [0, 360)\n  return theta;\n}\n//var angle = '';\n//if (msg.elementId == \"image\" && msg.event.type == \"click\"){\n//    angle = pointToAngle(250, 250, msg.event.svgX, msg.event.svgY);\n//    angle = angle+90;\n//    if (angle > 360) {\n//      angle = angle-'360'};\n//}\n\nmsg.payload = Math.round('angle');\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6304523082088537",
+        "type": "function",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "Draw",
+        "func": "/*\n * Calculate x and y in circle's circumference\n * @param {Object} input - The input parameters\n * @param {number} input.radius - The circle's radius\n * @param {number} input.angle - The angle in degrees\n * @param {number} input.cx - The circle's origin x\n * @param {number} input.cy - The circle's origin y\n * @returns {Array[number,number]} The calculated x and y\n */\nfunction pointsOnCircle({ radius, angle, cx, cy }){\n  angle = angle * ( Math.PI / 180 ); // Convert from Degrees to Radians\n  const x = cx + radius * Math.cos(angle);\n  const y = cy + radius * Math.sin(angle);\n  return [ x, y ];\n}\n\nvar sendm = { payload: \"\" };\n// AZ pointer\nif (msg.payload.heading != last) {\n    var last = msg.payload.heading;\n    var halfband = msg.payload.bandwidth/2;\n    //node.warn(\"new Last\");// was used for debugging. \n    var angle = msg.payload.heading  - 90; // Convert angle to North as 0\n    var coord = pointsOnCircle({ radius: 225, angle: angle, cx: 250, cy: 250 });\n    var x2 = coord[0].toString();\n    var y2 = coord[1].toString();\n\n    coord = pointsOnCircle({ radius: 225, angle: angle-halfband, cx: 250, cy: 250 });\n    var beamx2a = coord[0].toString();\n    var beamy2a = coord[1].toString();\n    coord = pointsOnCircle({ radius: 225, angle: angle+halfband, cx: 250, cy: 250 });\n    var beamx2b = coord[0].toString();\n    var beamy2b = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamline\"\n        },\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamwidth\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"polygon\",\n            \"elementId\": \"beamwidth\",\n            \"elementAttributes\": {\n                \"points\": \"250,250 \" + beamx2a + \",\" + beamy2a + \" \" + beamx2b + \",\" + beamy2b\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"green;fill-opacity:0.25\",\n                \"stroke\": \"black;stroke-width:1px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"my content\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"beamline\",\n            \"elementAttributes\": {\n                \"x1\": \"250\",\n                \"y1\": \"250\",\n                \"x2\": x2,\n                \"y2\": y2\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"black;stroke-width:2px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"Beam antenna\"\n        },\n\n    ]\n    node.send(sendm);\n}\n// Target mark\nif (msg.payload.hasOwnProperty(\"tdeg\")) {\n    angle = msg.payload.tdeg - 90;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        },\n        {  \n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"tdeg\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"orange;stroke-width:20px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        }\n    ]\n    node.send(sendm);\n}\n// Forward limit\nif (msg.payload.hasOwnProperty(\"lim2\")) {\n    angle = msg.payload.lim2 - 90.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim2\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"blue;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        }\n    ]\n    node.send(sendm);\n}\n// Reverse limit\nif (msg.payload.hasOwnProperty(\"lim1\")) {\n    angle = msg.payload.lim1 - 89.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim1\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"red;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        }\n    ]\n    node.send(sendm);\n}\n// Distance to Locator\nif (msg.payload.hasOwnProperty(\"dxqrb\")) {\n    var qrb = msg.payload.dxqrb;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"15\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"yellow\"\n            },\n            \"textContent\": \"QRB: \" + qrb + \"KM\"\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        }\n    ]\n    node.send(sendm);\n}\n// Fault messages\nif (msg.payload.hasOwnProperty(\"fmsg\")) {\n    var fmsg = msg.payload.fmsg;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"480\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"red\"\n            },\n            \"textContent\": fmsg\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        }\n    ]\n    node.send(sendm);\n}\n\nreturn;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 200,
+        "wires": [
+            [
+                "878027b1bf90a25f"
+            ]
+        ]
+    },
+    {
+        "id": "53d6286fa0fb3cda",
+        "type": "debug",
+        "z": "af3eb5525b254109",
+        "g": "8f3a9378393a269e",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 260,
+        "wires": []
+    },
+    {
         "id": "3e9a8b26eb64aa76",
         "type": "ui_svg_graphics",
         "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
         "group": "30bb71dcf5acc5eb",
         "order": 1,
         "width": 0,
@@ -3929,74 +4023,6 @@
         ]
     },
     {
-        "id": "5bbf0d1fdafe1752",
-        "type": "function",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "point to angle",
-        "func": "function pointToAngle(cx, cy, ex, ey) {\n  var dy = ey - cy;\n  var dx = ex - cx;\n  var theta = Math.atan2(dy, dx); // range (-PI, PI]\n  theta *= 180 / Math.PI; // rads to degs, range (-180, 180]\n  if (theta < 0) theta = 360 + theta; // range [0, 360)\n  return theta;\n}\n//var angle = '';\n//if (msg.elementId == \"image\" && msg.event.type == \"click\"){\n//    angle = pointToAngle(250, 250, msg.event.svgX, msg.event.svgY);\n//    angle = angle+90;\n//    if (angle > 360) {\n//      angle = angle-'360'};\n//}\n\nmsg.payload = Math.round('angle');\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 260,
-        "wires": [
-            [
-                "53d6286fa0fb3cda"
-            ]
-        ]
-    },
-    {
-        "id": "6914f18f482d24cf",
-        "type": "link in",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "link in 1",
-        "links": [
-            "d7daa80038261ca3"
-        ],
-        "x": 275,
-        "y": 220,
-        "wires": [
-            [
-                "d2deb76f9b763c46"
-            ]
-        ]
-    },
-    {
-        "id": "d2deb76f9b763c46",
-        "type": "function",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "function 2",
-        "func": "// R1\nif (msg.payload.rotorID  == \"R1\" ){\n    return[msg, null, null, null, null, null, null, null];\n}\n// R2\nif (msg.payload.rotorID  == \"R2\") {\n    return [null, msg, null, null, null, null, null, null];\n}\n// R3\nif (msg.payload.rotorID  == \"R3\") {\n    return [null, null, msg, null, null, null, null, null];\n}\n// R4\nif (msg.payload.rotorID  == \"R4\") {\n    return [null, null, null, msg, null, null, null, null];\n}\n// R5\nif (msg.payload.rotorID  == \"R5\") {\n    return [null, null, null, null, msg, null, null, null];\n}\n// R6\nif (msg.payload.rotorID  == \"R6\") {\n    return [null, null, null, null, null, msg, null, null];\n}\n//R7\nif (msg.payload.rotorID == \"R7\" ){\n    return[null, null, null, null, null, null, msg, null];\n}\n// R8\nif (msg.payload.rotorID  == \"R8\") {\n    return [null, null, null, null, null, null, null, msg];\n}\n\n//return msg;",
-        "outputs": 8,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 220,
-        "wires": [
-            [],
-            [],
-            [],
-            [],
-            [
-                "6304523082088537"
-            ],
-            [],
-            [],
-            [
-                "362867492b4029d3"
-            ]
-        ]
-    },
-    {
         "id": "878027b1bf90a25f",
         "type": "ui_svg_graphics",
         "z": "af3eb5525b254109",
@@ -4043,71 +4069,13 @@
         "dblClickZoomPercentage": "150",
         "cssString": "div.ui-svg svg{\n    color: var(--nr-dashboard-widgetColor);\n    fill: currentColor !important;\n}\ndiv.ui-svg path {\n    fill: inherit;\n}",
         "name": "",
-        "x": 700,
+        "x": 680,
         "y": 200,
         "wires": [
             [
                 "8bb4f7b01229e49a"
             ]
         ]
-    },
-    {
-        "id": "8bb4f7b01229e49a",
-        "type": "function",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "point to angle",
-        "func": "function pointToAngle(cx, cy, ex, ey) {\n  var dy = ey - cy;\n  var dx = ex - cx;\n  var theta = Math.atan2(dy, dx); // range (-PI, PI]\n  theta *= 180 / Math.PI; // rads to degs, range (-180, 180]\n  if (theta < 0) theta = 360 + theta; // range [0, 360)\n  return theta;\n}\n//var angle = '';\n//if (msg.elementId == \"image\" && msg.event.type == \"click\"){\n//    angle = pointToAngle(250, 250, msg.event.svgX, msg.event.svgY);\n//    angle = angle+90;\n//    if (angle > 360) {\n//      angle = angle-'360'};\n//}\n\nmsg.payload = Math.round('angle');\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 880,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6304523082088537",
-        "type": "function",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "Draw",
-        "func": "/*\n * Calculate x and y in circle's circumference\n * @param {Object} input - The input parameters\n * @param {number} input.radius - The circle's radius\n * @param {number} input.angle - The angle in degrees\n * @param {number} input.cx - The circle's origin x\n * @param {number} input.cy - The circle's origin y\n * @returns {Array[number,number]} The calculated x and y\n */\nfunction pointsOnCircle({ radius, angle, cx, cy }){\n  angle = angle * ( Math.PI / 180 ); // Convert from Degrees to Radians\n  const x = cx + radius * Math.cos(angle);\n  const y = cy + radius * Math.sin(angle);\n  return [ x, y ];\n}\n\nvar sendm = { payload: \"\" };\n// AZ pointer\nif (msg.payload.heading != last) {\n    var last = msg.payload.heading;\n    var halfband = msg.payload.bandwidth/2;\n    //node.warn(\"new Last\");// was used for debugging. \n    var angle = msg.payload.heading  - 90; // Convert angle to North as 0\n    var coord = pointsOnCircle({ radius: 225, angle: angle, cx: 250, cy: 250 });\n    var x2 = coord[0].toString();\n    var y2 = coord[1].toString();\n\n    coord = pointsOnCircle({ radius: 225, angle: angle-halfband, cx: 250, cy: 250 });\n    var beamx2a = coord[0].toString();\n    var beamy2a = coord[1].toString();\n    coord = pointsOnCircle({ radius: 225, angle: angle+halfband, cx: 250, cy: 250 });\n    var beamx2b = coord[0].toString();\n    var beamy2b = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamline\"\n        },\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"beamwidth\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"polygon\",\n            \"elementId\": \"beamwidth\",\n            \"elementAttributes\": {\n                \"points\": \"250,250 \" + beamx2a + \",\" + beamy2a + \" \" + beamx2b + \",\" + beamy2b\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"green;fill-opacity:0.25\",\n                \"stroke\": \"black;stroke-width:1px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"my content\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"beamline\",\n            \"elementAttributes\": {\n                \"x1\": \"250\",\n                \"y1\": \"250\",\n                \"x2\": x2,\n                \"y2\": y2\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"none\",\n                \"stroke\": \"black;stroke-width:2px;stroke-opacity:0.25\"\n            },\n            \"textContent\": \"Beam antenna\"\n        },\n\n    ]\n    node.send(sendm);\n}\n// Target mark\nif (msg.payload.hasOwnProperty(\"tdeg\")) {\n    angle = msg.payload.tdeg - 90;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        },\n        {  \n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"tdeg\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"orange;stroke-width:20px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"tdeg\"\n        }\n    ]\n    node.send(sendm);\n}\n// Forward limit\nif (msg.payload.hasOwnProperty(\"lim2\")) {\n    angle = msg.payload.lim2 - 90.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim2\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"blue;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n}else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim2\"\n        }\n    ]\n    node.send(sendm);\n}\n// Reverse limit\nif (msg.payload.hasOwnProperty(\"lim1\")) {\n    angle = msg.payload.lim1 - 89.5;\n    coord = pointsOnCircle({ radius: 222, angle: angle, cx: 250, cy: 250 });\n    var lx1 = coord[0].toString();\n    var ly1 = coord[1].toString();\n    coord = pointsOnCircle({ radius: 230, angle: angle, cx: 250, cy: 250 });\n    var lx2 = coord[0].toString();\n    var ly2 = coord[1].toString();\n\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"line\",\n            \"elementId\": \"lim1\",\n            \"elementAttributes\": {\n                \"x1\": lx1,\n                \"y1\": ly1,\n                \"x2\": lx2,\n                \"y2\": ly2\n            },\n            \"elementStyleAttributes\": {\n                \"stroke\": \"red;stroke-width:4px\"\n            },\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"lim1\"\n        }\n    ]\n    node.send(sendm);\n}\n// Distance to Locator\nif (msg.payload.hasOwnProperty(\"dxqrb\")) {\n    var qrb = msg.payload.dxqrb;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"15\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"yellow\"\n            },\n            \"textContent\": \"QRB: \" + qrb + \"KM\"\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"qrb\"\n        }\n    ]\n    node.send(sendm);\n}\n// Fault messages\nif (msg.payload.hasOwnProperty(\"fmsg\")) {\n    var fmsg = msg.payload.fmsg;\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        },\n        {\n            \"command\": \"add_element\",\n            \"elementType\": \"text\",\n            \"elementId\": \"qrb\",\n            \"elementAttributes\": {\n                \"x\": \"10\", \"y\": \"480\"\n            },\n            \"elementStyleAttributes\": {\n                \"fill\": \"red\"\n            },\n            \"textContent\": fmsg\n        }\n    ]\n    node.send(sendm);\n} else {\n    sendm.payload = [\n        {\n            \"command\": \"remove_element\",\n            \"elementId\": \"fmsg\"\n        }\n    ]\n    node.send(sendm);\n}\n\nreturn;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 550,
-        "y": 200,
-        "wires": [
-            [
-                "878027b1bf90a25f"
-            ]
-        ]
-    },
-    {
-        "id": "53d6286fa0fb3cda",
-        "type": "debug",
-        "z": "af3eb5525b254109",
-        "g": "8f3a9378393a269e",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 260,
-        "wires": []
     },
     {
         "id": "09a3c64ebf9f9848",
@@ -5093,7 +5061,6 @@
         "name": "Parse Switch Data",
         "func": "//manually parsing antenna data\n// get switch antenna names from memory\n// var oneSixtyOne = global.get(\"160-1\");\n// var oneSixtyTwo = global.get(\"160-2\");\n// var oneSixtyThree = global.get(\"160-3\");\n// var eightyOne = global.get(\"80-1\");\n// var eightyTwo = global.get(\"80-2\");\n// var eightyThree = global.get(\"80-3\");\n// var eightyfour = global.get(\"80-4\");\n// var fortyOne = global.get(\"40-1\");\n// var fortyTwo = global.get(\"40-2\");\n// var fortyThree = global.get(\"40-3\");\n// var thirtyOne = global.get(\"30-1\");\n// var thirtyTwo = global.get(\"30-2\");\n\n\n// 160 meter band\nif (msg.payload.includes(\"SWITCHUPDATE\u001f160\")){\n    //get 160 ant names\n    var oneSixtyOne = global.get(\"160-1\");\n    var oneSixtyTwo = global.get(\"160-2\");\n    var oneSixtyThree = global.get(\"160-3\");\n    //set band adn antenna names\n    if (msg.payload.includes(oneSixtyOne)){\n        msg.payload = {\n            \"band\" : \"160\" ,\n            \"swAct\" : oneSixtyOne\n        };\n    }\n    else if (msg.payload.includes(oneSixtyTwo)){\n        msg.payload = {\n            \"band\" : \"160\" ,\n            \"swAct\" : oneSixtyTwo\n        };\n    }\n    else if (msg.payload.includes(oneSixtyThree)){\n        msg.payload ={\n            \"band\" : \"160\" ,\n            \"swAct\" : oneSixtyThree\n        };\n    }\n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f80\")){\n    //get 8m antenna names\n    var eightyOne = global.get(\"80-1\");\n    var eightyTwo = global.get(\"80-2\");\n    var eightyThree = global.get(\"80-3\");\n    var eightyfour = global.get(\"80-4\");\n    //set band active antenna values.\n    if(msg.payload.includes(eightyOne)){\n        msg.payload = {\n            \"band\" : \"80\" ,\n            \"swAct\" : eightyOne\n        }\n    }\n    else if (msg.payload.includes(eightyTwo)){\n            msg.payload = {\n            \"band\" : \"80\" ,\n            \"swAct\" : eightyTwo\n        }\n    }\n    else if (msg.payload.includes(eightyThree)){\n            msg.payload = {\n            \"band\" : \"80\" ,\n            \"swAct\" : eightyThree\n        }\n    }\n    else if (msg.payload.includes(eightyfour)){\n            msg.payload = {\n            \"band\" : \"80\" ,\n            \"swAct\" : eightyfour\n        }\n    }\n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f40\")){\n    // get 40m antenna names\n    var fortyOne = global.get(\"40-1\");\n    var fortyTwo = global.get(\"40-2\");\n    var fortyThree = global.get(\"40-3\");\n    // set antenna values\n    if(msg.payload.includes(fortyOne)){\n        msg.payload = {\n            \"band\" : \"40\" ,\n            \"swAct\" : fortyOne\n        }\n    }\n    else if (msg.payload.includes(fortyTwo)){\n            msg.payload = {\n            \"band\" : \"40\" ,\n            \"swAct\" : fortyTwo\n        }\n    }\n    else if (msg.payload.includes(fortyThree)){\n            msg.payload = {\n            \"band\" : \"40\" ,\n            \"swAct\" : fortyThree\n        }\n    }\n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f30\")){\n    // get 30m atnenna names\n    var thirtyOne = global.get(\"30-1\");\n    var thirtyTwo = global.get(\"30-2\");\n    // set 30m antenna values\n    if(msg.payload.includes(thirtyOne)){\n        msg.payload = {\n            \"band\" : \"30\" ,\n            \"swAct\" : thirtyOne\n        }\n    }\n    else if(msg.payload.includes(thirtyTwo)){\n        msg.payload = {\n            \"band\" : \"30\" ,\n            \"swAct\" : thirtyTwo\n        }\n    }\n    \n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f20\")){\n    //get antenna names\n    var twentyOne = global.get(\"20-1\");\n    var twentyTwo = global.get(\"20-2\");\n    var twentyThree = global.get(\"20-3\");\n    var twentyFour = global.get(\"20-4\");\n    var twentyFive = global.get(\"20-5\");\n    var twentySix = global.get(\"20-6\");\n\n    // set 20m antenna variables\n    if(msg.payload.includes(twentyOne)){\n        msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentyOne\n        }\n    }\n    else if (msg.payload.includes(twentyTwo)){\n            msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentyTwo\n        }\n    }\n    else if (msg.payload.includes(twentyThree)){\n            msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentyThree\n        }\n    }\n    else if (msg.payload.includes(twentyFour)){\n            msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentyFour\n        }\n    }\n    else if (msg.payload.includes(twentyFive)){\n            msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentyFive\n        }\n    }\n    else if (msg.payload.includes(twentySix)){\n            msg.payload = {\n            \"band\" : \"20\" ,\n            \"swAct\" : twentySix\n        }\n    }\n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f15\")){\n    // get 15m antenna names\n    var fifteenOne = global.get(\"15-1\");\n    var fifteenTwo = global.get(\"15-2\");\n    var fifteenThree = global.get(\"15-3\");\n    var fifteenFour = global.get(\"15-4\");\n    //set values\n    if(msg.payload.includes(fifteenOne)){\n        msg.payload = {\n            \"band\" : \"15\" ,\n            \"swAct\" : fifteenOne\n        }\n    }\n    else if (msg.payload.includes(fifteenTwo)){\n            msg.payload = {\n            \"band\" : \"15\" ,\n            \"swAct\" : fifteenTwo\n        }\n    }\n    else if (msg.payload.includes(fifteenThree)){\n            msg.payload = {\n            \"band\" : \"15\" ,\n            \"swAct\" : fifteenThree\n        }\n    }\n    else if (msg.payload.includes(fifteenFour)){\n            msg.payload = {\n            \"band\" : \"15\" ,\n            \"swAct\" : fifteenFour\n        }\n    }\n}\nelse if (msg.payload.includes(\"SWITCHUPDATE\u001f10\")){\n    // get 10m antenna names\n    var tenOne = global.get(\"10-1\");\n    var tenTwo = global.get(\"10-2\");\n    var tenThree = global.get(\"10-3\");\n    var tenFour = global.get(\"10-4\");\n    var tenFive = global.get(\"10-5\");\n    var tenSix = global.get(\"10-6\");\n    // set values\n    if(msg.payload.includes(tenOne)){\n        msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenOne\n        }\n    }\n    else if (msg.payload.includes(tenTwo)){\n            msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenTwo\n        }\n    }\n    else if (msg.payload.includes(tenThree)){\n            msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenThree\n        }\n    }\n    else if (msg.payload.includes(tenFour)){\n            msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenFour\n        }\n    }\n    else if (msg.payload.includes(tenFive)){\n            msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenFive\n        }\n    }\n    else if (msg.payload.includes(tenSix)){\n            msg.payload = {\n            \"band\" : \"10\" ,\n            \"swAct\" : tenSix\n        }\n    }\n}\nelse{\n    msg.payload = \"UNKNOWN MSG\"\n}\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5113,7 +5080,6 @@
         "name": "Add button colors ",
         "func": "var b = msg.payload.band;\nvar a = msg.payload.swAct;\nmsg.payload = {\n    \"band\" : b ,\n    \"swAct\" : a ,\n    \"actBackgroundColor\" : \"green\" ,\n    \"actTextColor\" : \"white\" , \n    \"notActBackgroundColor\" : \"blue\" ,\n    \"notActTextColor\" : \"black\"\n}\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5210,7 +5176,6 @@
         "name": "160 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"160-1\");\nvar two = global.get(\"160-2\");\nvar three = global.get(\"160-3\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3];",
         "outputs": 3,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5460,7 +5425,6 @@
         "name": "Add pressed button colors ",
         "func": "var b = msg.payload.band;\nvar a;\n// get antenna name\nif(msg.payload.swAct == \"160-1\"){\n    a = global.get(\"160-1\");\n}\nelse if (msg.payload.swAct == \"160-2\"){\n    a = global.get(\"160-2\");\n}\nelse if (msg.payload.swAct == \"160-3\"){\n    a = global.get(\"160-3\");\n}\nelse if (msg.payload.swAct == \"80-1\"){\n    a = global.get(\"80-1\");\n}\nelse if (msg.payload.swAct == \"80-2\"){\n    a = global.get(\"80-2\");\n}\nelse if (msg.payload.swAct == \"80-3\"){\n    a = global.get(\"80-3\");\n}\nelse if (msg.payload.swAct == \"80-4\"){\n    a = global.get(\"80-4\");\n}\nelse if (msg.payload.swAct == \"40-1\"){\n    a = global.get(\"40-1\");\n}\nelse if (msg.payload.swAct == \"40-2\"){\n    a = global.get(\"40-2\");\n}\nelse if (msg.payload.swAct == \"40-3\"){\n    a = global.get(\"40-3\");\n}\nelse if (msg.payload.swAct == \"30-1\"){\n    a = global.get(\"30-1\");\n}\nelse if (msg.payload.swAct == \"30-2\"){\n    a = global.get(\"30-2\");\n}\nelse if (msg.payload.swAct == \"20-1\"){\n    a = global.get(\"20-1\");\n}\nelse if (msg.payload.swAct == \"20-2\"){\n    a = global.get(\"20-2\");\n}\nelse if (msg.payload.swAct == \"20-3\"){\n    a = global.get(\"20-3\");\n}\nelse if (msg.payload.swAct == \"20-4\"){\n    a = global.get(\"20-4\");\n}\nelse if (msg.payload.swAct == \"20-5\"){\n    a = global.get(\"20-5\");\n}\nelse if (msg.payload.swAct == \"20-6\"){\n    a = global.get(\"20-6\");\n}\nelse if (msg.payload.swAct == \"15-1\"){\n    a = global.get(\"15-1\");\n}\nelse if (msg.payload.swAct == \"15-2\"){\n    a = global.get(\"15-2\");\n}\nelse if (msg.payload.swAct == \"15-3\"){\n    a = global.get(\"15-3\");\n}\nelse if (msg.payload.swAct == \"15-4\"){\n    a = global.get(\"15-4\");\n}\nelse if (msg.payload.swAct == \"10-1\"){\n    a = global.get(\"10-1\");\n}\nelse if (msg.payload.swAct == \"10-2\"){\n    a = global.get(\"10-2\");\n}\nelse if (msg.payload.swAct == \"10-3\"){\n    a = global.get(\"10-3\");\n}\nelse if (msg.payload.swAct == \"10-4\"){\n    a = global.get(\"10-4\");\n}\nelse if (msg.payload.swAct == \"10-5\"){\n    a = global.get(\"10-5\");\n}\nelse if (msg.payload.swAct == \"10-6\"){\n    a = global.get(\"10-6\");\n}\n\n\n\n\nmsg.payload = {\n    \"band\" : b ,\n    \"swAct\" : a ,\n    \"actBackgroundColor\" : \"yellow\" ,\n    \"actTextColor\" : \"green\" , \n    \"notActBackgroundColor\" : \"red\" ,\n    \"notActTextColor\" : \"black\"\n}\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5480,7 +5444,6 @@
         "name": "80 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"80-1\");\nvar two = global.get(\"80-2\");\nvar three = global.get(\"80-3\");\nvar four = global.get(\"80-4\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n var msg4 = null;\n \n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == four){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : four}\n    }\n\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3, msg4]",
         "outputs": 4,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5526,7 +5489,6 @@
         "name": "40 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"40-1\");\nvar two = global.get(\"40-2\");\nvar three = global.get(\"40-3\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3];",
         "outputs": 3,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5552,7 +5514,6 @@
         "name": "30 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"30-1\");\nvar two = global.get(\"30-2\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n\n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2];",
         "outputs": 2,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5575,7 +5536,6 @@
         "name": "20 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"20-1\");\nvar two = global.get(\"20-2\");\nvar three = global.get(\"20-3\");\nvar four = global.get(\"20-4\");\nvar five = global.get(\"20-5\");\nvar six = global.get(\"20-6\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n var msg4 = null;\n var msg5 = null;\n var msg6 = null;\n \n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == four){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == five){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == six){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : six}\n    }\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3, msg4, msg5, msg6]",
         "outputs": 6,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5610,7 +5570,6 @@
         "name": "10 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"10-1\");\nvar two = global.get(\"10-2\");\nvar three = global.get(\"10-3\");\nvar four = global.get(\"10-4\");\nvar five = global.get(\"10-5\");\nvar six = global.get(\"10-6\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n var msg4 = null;\n var msg5 = null;\n var msg6 = null;\n \n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == four){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == five){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : six}\n    }\n}\nelse if (activeAnt == six){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n    msg5 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : five}\n    }\n    msg6 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : six}\n    }\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3, msg4, msg5, msg6]",
         "outputs": 6,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5645,7 +5604,6 @@
         "name": "15 Button",
         "func": "// pickup colors from messate\nvar actBk = msg.payload.actBackgroundColor;\nvar actTxt = msg.payload.actTextColor;\nvar naBk = msg.payload.notActBackgroundColor;\nvar naTxt = msg.payload.notActTextColor;\n\n// get antenna names\nvar one = global.get(\"15-1\");\nvar two = global.get(\"15-2\");\nvar three = global.get(\"15-3\");\nvar four = global.get(\"15-4\");\n\n// set up variables for outputs\n var msg1 = null;\n var msg2 = null;\n var msg3 = null;\n var msg4 = null;\n \n//set up varabel for active antenna\nvar activeAnt = msg.payload.swAct;\n\n//set button color messages \nif (activeAnt == one){\n    msg1= { \"payload\" : {\n        \"textColor\" : actTxt , \n        \"backgroundColor\" : actBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == two){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk ,\n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": actTxt ,\n        \"backgroundColor\": actBk ,\n        \"name\" : two }\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == three){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : four}\n    }\n}\nelse if (activeAnt == four){\n    msg1= { \"payload\" : {\n        \"textColor\" : naTxt , \n        \"backgroundColor\" : naBk , \n        \"name\" : one}\n    }\n    msg2 = {\"payload\" : {\n        \"textColor\": naTxt ,\n        \"backgroundColor\": naBk ,\n        \"name\" : two}\n    }\n    msg3 = {\"payload\" : {\n        \"textColor\": naTxt,\n        \"backgroundColor\": naBk ,\n        \"name\" : three}\n    }\n    msg4 = {\"payload\" : {\n        \"textColor\": actTxt,\n        \"backgroundColor\": actBk ,\n        \"name\" : four}\n    }\n\n}\n\n//node.warn(\"activeAnt =\" + activeAnt);\n//node.warn(\"actBk =\" + actBk);\n//node.warn(\"actTxt =\" + actTxt);\n//node.warn(\"naBk =\" + naBk);\n//node.warn(\"naTxt =\" + naTxt);\n//node.warn(\"msg1: \" + msg1);\nreturn [msg1, msg2, msg3, msg4]",
         "outputs": 4,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5674,7 +5632,6 @@
         "name": "Add pressed button colors ",
         "func": "// SET TURN MESSAGES\nvar newMsg = null;\n\nvar band = msg.payload.band;\nvar antSW;\nvar a;\n\n// get antenna name\nif(msg.payload.swAct == \"160-1\"){\n    antSW = global.get(\"160-1\");\n    newMsg = {\"payload\" : \n        \"SET_SWITCH\u001f\" + band + \"\u001f\" + antSW// +\"\u001f0\u001f0\"\n    }\n    return newMsg;\n}\nelse if (msg.payload.swAct == \"160-2\"){\n    antSW = global.get(\"160-2\");\n    newMsg = {\"payload\" : \n        \"SET_SWITCH\u001f\" + band + \"\u001f\" + antSW// +\"\u001f0\u001f0\"\n    }\n    return newMsg;\n}\nelse if (msg.payload.swAct == \"160-3\"){\n    antSW = global.get(\"160-3\");\n    newMsg = {\"payload\" : \n        \"SET_SWITCH\u001f\" + band + \"\u001f\" + antSW// +\"\u001f0\u001f0\"\n    }\n    return newMsg;\n}\nelse if (msg.payload.swAct == \"80-1\"){\n    a = global.get(\"80-1\");\n}\nelse if (msg.payload.swAct == \"80-2\"){\n    a = global.get(\"80-2\");\n}\nelse if (msg.payload.swAct == \"80-3\"){\n    a = global.get(\"80-3\");\n}\nelse if (msg.payload.swAct == \"80-4\"){\n    a = global.get(\"80-4\");\n}\nelse if (msg.payload.swAct == \"40-1\"){\n    a = global.get(\"40-1\");\n}\nelse if (msg.payload.swAct == \"40-2\"){\n    a = global.get(\"40-2\");\n}\nelse if (msg.payload.swAct == \"40-3\"){\n    a = global.get(\"40-3\");\n}\nelse if (msg.payload.swAct == \"30-1\"){\n    a = global.get(\"30-1\");\n}\nelse if (msg.payload.swAct == \"30-2\"){\n    a = global.get(\"30-2\");\n}\nelse if (msg.payload.swAct == \"20-1\"){\n    a = global.get(\"20-1\");\n}\nelse if (msg.payload.swAct == \"20-2\"){\n    a = global.get(\"20-2\");\n}\nelse if (msg.payload.swAct == \"20-3\"){\n    a = global.get(\"20-3\");\n}\nelse if (msg.payload.swAct == \"20-4\"){\n    a = global.get(\"20-4\");\n}\nelse if (msg.payload.swAct == \"20-5\"){\n    a = global.get(\"20-5\");\n}\nelse if (msg.payload.swAct == \"20-6\"){\n    a = global.get(\"20-6\");\n}\nelse if (msg.payload.swAct == \"15-1\"){\n    a = global.get(\"15-1\");\n}\nelse if (msg.payload.swAct == \"15-2\"){\n    a = global.get(\"15-2\");\n}\nelse if (msg.payload.swAct == \"15-3\"){\n    a = global.get(\"15-3\");\n}\nelse if (msg.payload.swAct == \"15-4\"){\n    a = global.get(\"15-4\");\n}\nelse if (msg.payload.swAct == \"10-1\"){\n    a = global.get(\"10-1\");\n}\nelse if (msg.payload.swAct == \"10-2\"){\n    a = global.get(\"10-2\");\n}\nelse if (msg.payload.swAct == \"10-3\"){\n    a = global.get(\"10-3\");\n}\nelse if (msg.payload.swAct == \"10-4\"){\n    a = global.get(\"10-4\");\n}\nelse if (msg.payload.swAct == \"10-5\"){\n    a = global.get(\"10-5\");\n}\nelse if (msg.payload.swAct == \"10-6\"){\n    a = global.get(\"10-6\");\n}\n\n\n\n\n// msg.payload = {\n//    // \"band\" : b ,\n//     \"swAct\" : a ,\n//     \"actBackgroundColor\" : \"yellow\" ,\n//     \"actTextColor\" : \"green\" , \n//     \"notActBackgroundColor\" : \"red\" ,\n//     \"notActTextColor\" : \"black\"\n// }\nreturn msg;",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5725,7 +5682,6 @@
         "name": "Turn R3",
         "func": "//msg.payload = \"SET_SWITCH\u001fRadio-1\u001f\" + msg.payload\n//msg.payload = \"POINT\u001fR3 40 LOW\u001f\" + 114.7 +\"\u001f0\u001f0\"\nmsg.payload = \"SEt_switch\u001f160\u001fsw\"\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5903,7 +5859,6 @@
         "name": "",
         "func": "if ((msg.topic) === 'lightning'){\n   return {payload: 'Warning, Lightning Alert'};\n} else return null;\n",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6053,7 +6008,6 @@
         "name": "GetConnect",
         "func": "const connect = msg.payload.match(/(?<=var key= )\\d+/);\nreturn { payload: '{\"a\":' + connect[0] + '}' };",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6074,7 +6028,6 @@
         "name": "lastrike",
         "func": "const lastrike = flow.get('lastrike')\nconst curdate = Date.now();\nconst dif = Math.floor(((curdate - lastrike) / 60000));\nlet mhd;\nlet diff = curdate;\n\nif (dif <60){\n    diff = dif;\n    mhd = 'min';\n}\nif (dif >= 60 && dif < 1440 ){\n    diff = Math.floor(dif / 60);\n    mhd = 'hrs'\n}\nif (dif >= 1440){\n    diff = Math.floor(dif/1440);\n    mhd = 'day';\n   }\n\nmsg = { topic: 'strike', lastrike: lastrike, curdate: curdate, dif:diff, mhd:mhd};\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6119,7 +6072,6 @@
         "name": "User Config",
         "func": "//  default values for lightning detection \nlet lat_home = flow.set(\"lat_home\",'39.280430'); //set for your locale\nlet long_home = flow.set(\"long_home\", '-77.886821'); //set for your locale\nlet strike_distance = flow.set(\"strike_distance\", 100); // set for strike detection radius (i.e 200 Km/Miles)\nlet strike_reset = flow.set(\"strike_reset\",30000); // milliseconds\nlet distance_unit = flow.set(\"distance_unit\", 'mi'); // km = Kilometer, mi = Miles\nlet tempUnit = flow.set(\"tempUnit\",'f');  // f = Farenheight, c= Celsius",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6164,7 +6116,6 @@
         "name": "function",
         "func": "if (msg.payload !== 'undefined'  && msg.topic !== 'control') {\n    flow.set(\"long_home\", msg.payload);\n    msg = { payload: (flow.get(\"long_home\")) };\n}\nif (msg.payload !== 'undefined' && msg.topic !== 'control') {\n    msg = { payload: (flow.get(\"long_home\")) };\n}\nif (msg.topic === 'control') {\n    msg = { payload: (flow.get(\"long_home\")) };\n}\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6183,7 +6134,6 @@
         "name": "function",
         "func": "if (msg.payload !== 'undefined' && msg.topic !=='control'){\n    flow.set(\"lat_home\", msg.payload);\n    msg =  {payload:(flow.get(\"lat_home\"))};\n    return msg;\n} \nif (msg.payload !== 'undefined' && msg.topic !== 'control'){\n    msg = { payload: (flow.get(\"lat_home\")) };\n    return msg;\n}\nif ( msg.topic === 'control'){\n    msg = { payload: (flow.get(\"lat_home\")) };\n    return msg;\n}\n\n",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6202,7 +6152,6 @@
         "name": "function",
         "func": "if (msg.payload !== null && msg.topic !== 'control') {\n    flow.set(\"strike_reset\", msg.payload);\n    msg = { payload: ((flow.get(\"strike_reset\")) / 1000) + ' sec' };\n    return msg;\n}\nif (msg.payload !== null && msg.topic !== 'control') {\n    msg = { payload: ((flow.get(\"strike_reset\")) / 1000) + ' sec' };\n    return msg;\n}\nif (msg.topic === 'control') {\n    msg = { payload: ((flow.get(\"strike_reset\")) / 1000) + ' sec' };\n    return msg;\n}",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6221,7 +6170,6 @@
         "name": "function",
         "func": "if (msg.payload !== 'undefined' && msg.topic !== 'control') {\n    flow.set(\"strike_distance\", msg.payload);\n    msg = { payload: (flow.get(\"strike_distance\") + ' ' + flow.get(\"distance_unit\")) };\n    return msg;\n}\nif (msg.payload !== 'undefined' && msg.topic !== 'control') {\n    msg = { payload: (flow.get(\"strike_distance\") + ' ' + flow.get(\"distance_unit\")) };\n    return msg;\n}\nif (msg.topic === 'control') {\n    msg = { payload: (flow.get(\"strike_distance\")) + ' ' + flow.get(\"distance_unit\") };\n    return msg;\n}\n",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6404,7 +6352,6 @@
         "name": "formatGdx",
         "func": "const issue_dt = msg.payload[0].issue_datetime\nconst est = new Date()\n\nif (msg.payload[0].message.match(/[A][L][T][K][0-9][0-9]/) === null || msg.payload[0].message.match(/[A][L][T][K][0-9][0-9]/) === 'undefined') {\n    msg = { payload: 0, topic: 'gdx', gdx: 0, color: '#808080', }\n    return msg\n}\nif (msg.payload[0].message.match(/[A][L][T][K][0-9][0-9]/) !== null) {\n    const geo = msg.payload[0].message.match(/[A][L][T][K][0-9][0-9]/)\n    if (geo[0].substr(5, 1) <= '4') {\n        msg = { payload: 0, topic: 'gdx', gdx: 0, color: '#808080', }\n        return msg\n    }\n    if (geo[0].substr(5, 1) === '5') {\n        msg = { payload: 0, topic: 'gdx', gdx: 1, color: '#ffff00', }\n        return msg\n    }\n    if (geo[0].substr(5, 1) === '6') {\n        msg = { payload: 0, topic: 'gdx', gdx: 2, color: '#ffbf00', }\n        return msg\n    }\n    if (geo[0].substr(5, 1) === '7') {\n        msg = { payload: 0,topic: 'gdx', gdx: 3, color: '#ff8000', }\n        return msg\n    }\n    if (geo[0].substr(4, 1) === '8') {\n        msg = { payload: 0,topic: 'gdx', gdx: 5, color: '#ff4000', }\n        return msg\n    }\n    if (geo[0].substr(5, 1) === '9') {\n        msg = { payload: 0,topic: 'gdx', gdx: 6, color: '#ff0000', }\n        return msg\n    }\n}\n",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6440,7 +6387,6 @@
         "name": "function",
         "func": "msg = { payload: flow.get('wxLoc')};\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6459,7 +6405,6 @@
         "name": "formatData",
         "func": "const temp = flow.get(\"tempUnit\") === 'f' ? Math.round((((msg.payload.tempc * 9) / 5)) + 32) : (msg.payload.tempc);\nconst tempUnit = flow.get(\"tempUnit\");\nconst wSpeed = flow.get(\"distance_unit\") === 'mi' ? Math.round(msg.data.wind.speed) : Math.round(msg.data.wind.speed * 1.609344);\nconst spdUnit = flow.get(\"distance_unit\") === 'mi' ? 'mph' : 'kmh';\nconst wDeg = msg.data.wind.deg || 0;\nconst wlocation = flow.set(\"wxLoc\",msg.location.city)|| 'None';\nconst wIcon = '<i class=\\'wi wi-owm-' + msg.data.weather[0].icon + ' wi-1x\\' ></i>';\n\nlet tIcon;\nif (tempUnit === 'f') {\n    if (temp < 30) {\n        tIcon = '#00ffff';\n    } else\n        if (temp >= 30 && temp < 50) {\n            tIcon = '#6699ff';\n        } else\n            if (temp >= 50 && temp < 70) {\n                tIcon = '#00cc00';\n            } else\n                if (temp >= 70 && temp < 90) {\n                tIcon = '#ff9900';\n                } else\n                    if (temp > 90) {\n                    tIcon = '#ff6600';\n                    }\n}\nif (tempUnit === 'c'){\nif (temp < -1) {\n    tIcon = '#00ffff';\n    } else\n        if (temp >= -1 && temp < 10) {\n            tIcon = '#6699ff';\n        } else\n            if (temp >= 10 && temp < 21) {\n            tIcon = '#00cc00';\n            } else\n                if ( temp >= 21 && temp < 32) {\n                tIcon = '#ff9900';\n                } else\n                    if ( temp > 32) {\n                    tIcon = '#ff6600';\n                    }\n}\n\nlet pBar;   // use in Toolbar Ui\nlet pBar1;  // used in Group Ui\nlet wBar = flow.get(\"wBar\")||0;\nif (wBar > msg.data.main.pressure) {\n    pBar = \"<i class='material-icons trending_up'></i>\"\n    pBar1 = 'trending_up'\n    flow.set('wBar', msg.data.main.pressure);\n}\nif (wBar < msg.data.main.pressure) {\n    pBar = \"<i class='material-icons trending_down'></i>\"\n    pBar1 = 'trending_down'\n    flow.set('wBar', msg.data.main.pressure);\n}\nif (wBar === msg.data.main.pressure) {\n    pBar = \"<i class='material-icons trending_flat'></i>\"\n    pBar1 = 'trending_flat'\n    flow.set('wBar', msg.data.main.pressure);\n}\n\nlet wFrom;\nif (wDeg >= 348.75 && wDeg<= 360){\n    wFrom = \"<i class='wi wi-direction wi-from-N wi-1x\\'</i>\";   \n}\nif (wDeg >= 0 && wDeg < 11.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-N wi-1x\\'</i>\";  \n}\nif (wDeg >= 11.25 && wDeg <= 33.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-NNE wi-1x\\'</i>\";\n}\nif (wDeg > 33.75 && wDeg <= 56.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-NE wi-1x\\'</i>\"; \n}\nif (wDeg > 56.25 && wDeg <= 78.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-ENE wi-1x\\'</i>\"; \n}\nif (wDeg > 78.75 && wDeg <= 101.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-E wi-1x\\'</i>\"; \n}\nif (wDeg > 101.25 && wDeg <= 123.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-ESE wi-1x\\'</i>\"; \n}\nif (wDeg > 123.75 && wDeg <= 146.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-SE wi-1x\\'</i>\"; \n}\nif (wDeg > 146.25 && wDeg <= 168.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-SSE wi-1x\\'</i>\"; \n}\nif (wDeg > 168.75 && wDeg <= 191.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-S wi-1x\\'</i>\"; \n}\nif (wDeg > 191.25 && wDeg <= 213.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-SSW wi-1x\\'</i>\"; \n}\nif (wDeg > 213.75 && wDeg <= 236.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-SW wi-1x\\'</i>\"; \n}\nif (wDeg > 236.25 && wDeg <= 258.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-WSW wi-1x\\'</i>\"; \n}\nif (wDeg > 258.75 && wDeg <= 281.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-W wi-1x\\'</i>\"; \n}\nif (wDeg >281.25 && wDeg <=303.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-WNW wi-1x\\'</i>\"; \n}\nif (wDeg > 303.75 && wDeg <= 326.25) {\n    wFrom = \"<i class='wi wi-direction wi-from-NW wi-1x\\'</i>\"; \n}\nif (wDeg > 326.25 && wDeg <= 348.75) {\n    wFrom = \"<i class='wi wi-direction wi-from-NNW wi-1x\\'</i>\"; \n}\n\nmsg = { payload: 0, topic: 'wx', temp: temp, tIcon: tIcon,  windir: wFrom , speed: wSpeed, spdUnit: spdUnit,\n    wxicon: wIcon, bar: pBar, bar1: pBar1, wBar:wBar};\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6650,7 +6595,6 @@
         "name": "formatSolar",
         "func": "const sfi = parseFloat(msg.payload.solar.solardata[0].solarflux[0]);\nconst kdx = parseFloat(msg.payload.solar.solardata[0].kindex[0]);\nconst Aindex = parseFloat(msg.payload.solar.solardata[0].aindex);\nconst muf = msg.payload.solar.solardata[0].muf[0]; \nconst fof2 = (parseFloat(muf / 3.084).toFixed(2) !== 'Nan') ? parseFloat(muf / 3.084).toFixed(2) : 0;\n\nlet sficolor\nif (sfi <= 80) { sficolor = '#ff0000' }\nif (sfi > 80 && sfi <= 120) { sficolor = '#ffcc00' }\nif (sfi > 130) { sficolor = \"#14f00c\" }\n\nlet aColor\nif (Aindex <= 3) { aColor = 'blue' }\nif (Aindex > 3 && Aindex <= 27) { aColor = \"#14f00c\" }\nif (Aindex > 27 && Aindex <= 80) { aColor = \"yellow\" }\nif (Aindex > 80) { aColor = \"red\" }\n\nlet kColor\nif (kdx <= 1) { kColor = '#3399ff' }\nif (kdx > 1 && kdx <= 4) { kColor = \"#14f00c\" }\nif (kdx > 4 && kdx <= 6) { kColor = \"yellow\" }\nif (kdx > 6) { kColor = \"red\" }\n\nmsg = { payload: 0, topic: 'solar', sfi: sfi, sficolor: sficolor, kdx: kdx, Aindex: Aindex, aColor: aColor, kColor: kColor };\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6718,7 +6662,6 @@
         "name": "function",
         "func": "const arr =[\"Kilometer\", \"Mile\"];\nconst arr1 = ['Celsius','Fahrenheit'];\nmsg = {arr, arr1}\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6739,7 +6682,6 @@
         "name": "function",
         "func": "let distance_unit\nif (msg.payload === 'Kilometer'){\n    distance_unit = (flow.set(\"distance_unit\",'km'))\n    return { payload: 0, label: 'Km', distance_unit: flow.get(\"distance_unit\")}\n}\nif (msg.payload === 'Mile') {\n    distance_unit = (flow.set(\"distance_unit\", 'mi'))\n    return { payload: 0, label: 'Miles', distance_unit: flow.get(\"distance_unit\") }\n}\nif (msg.payload === 'Celsius'){\n    flow.set(\"tempUnit\",'c')\n    return { payload: 0, label: 'Celsus', tempUnit: flow.get(\"tempUnit\")};\n}\nif (msg.payload === 'Fahrenheit') {\n    flow.set(\"tempUnit\", 'f')\n    return { payload: 0, label: 'Celsus', tempUnit: flow.get(\"tempUnit\") };\n}",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6760,7 +6702,6 @@
         "name": "function",
         "func": "const ky = (flow.get(\"distance_unit\") === 'km') ? 40075 / 360 : 25019 / 360;\nfunction arePointsNear(checkPoint, centerPoint) {\n const kx = Math.cos(Math.PI * centerPoint.lat / 180.0) * ky;\n const dx = Math.abs(centerPoint.lng - checkPoint.lng) * kx;\n const dy = Math.abs(centerPoint.lat - checkPoint.lat) * ky;\n return Math.sqrt(dx * dx + dy * dy);\n}\nconst lastrike = flow.get(\"lastrike\")||0;\nif (lastrike === 0) {\n    flow.set(\"lastrike\", Date.now() - 86400000 * 180); // default is 180 days - stored in volatile memory\n}\nconst strike = { lat: msg.payload.lat, lng: msg.payload.lon };\n\n// set latitute + longitude accordingly\nconst home = { lat: flow.get(\"lat_home\"), lng: flow.get(\"long_home\") };\nlet n = arePointsNear(strike, home);\nn = Math.round(n);\n\n// set strike radius in 'Km' accordingly for '<= 25)' & 'n >25' -- 25Km is default\nconst dunit = flow.get(\"distance_unit\");\nif(n <= flow.get(\"strike_distance\")) {\n    flow.set(\"lastrike\", Date.now()); // update lastrike with new strike time\n    msg = { payload: n, color: \"#ff0000\", topic: 'lightning', rate: 50};\n    node.send([[msg],[msg]]);\n} \nif (n > flow.get(\"strike_distance\")){\n    msg = { payload: flow.get(\"strike_distance\"), color: \"#14f00c\", topic: 'lightning', rate:flow.get(\"strike_reset\")};\nnode.send([[], [msg]]);\n}",
         "outputs": 2,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6795,7 +6736,6 @@
         "name": "",
         "func": "function decode(b) {\nlet a, e = {}, o, c, f, g, h, d;\n d = b.split(\"\")\n c = d[0],\n f = c,\n g = [c],\n h = 256;\n o = h;\n \n for (b = 1; \n      b < d.length; b++) a = d[b].charCodeAt(0), \n      // @ts-ignore\n      a = h > a ? d[b] : e[a] ? e[a] : f + c, g.push(a), \n      c = a.charAt(0), \n      e[o] = f + c, \n      o++, \n      f = a;\n return g.join(\"\")\n}\n\nreturn {\n payload: decode(msg.payload)\n}",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6816,7 +6756,6 @@
         "name": "function 1",
         "func": "await new Promise(r => setTimeout(r, 2000));\nreturn msg = {payload: new Date().getTime()}",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6838,7 +6777,6 @@
         "name": "function 2",
         "func": "await new Promise(r => setTimeout(r, 2000));\nreturn msg = {payload: 0, distance_unit: flow.get(\"distance_unit\")};",
         "outputs": 1,
-        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -6875,7 +6813,6 @@
         "name": "refresh",
         "func": "const lastrike = flow.get('lastrike')\nconst curdate = Date.now();\nconst dif = Math.floor(((curdate - lastrike) / 60000));\nlet mhd;\nlet diff = curdate;\n\nif (dif <60){\n    diff = dif;\n    mhd = 'min';\n}\nif (dif >= 60 && dif < 1440 ){\n    diff = Math.floor(dif / 60);\n    mhd = 'hrs'\n}\nif (dif >= 1440){\n    diff = Math.floor(dif/1440);\n    mhd = 'day';\n   }\n\nmsg = { topic: 'strike', lastrike: lastrike, curdate: curdate, dif:diff, mhd:mhd};\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
