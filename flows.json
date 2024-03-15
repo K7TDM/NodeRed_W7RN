@@ -32,6 +32,14 @@
         "env": []
     },
     {
+        "id": "f1002d99384289ae",
+        "type": "tab",
+        "label": "RemoteRed",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "711feec62477bb6c",
         "type": "group",
         "z": "22131d24d443d2ee",
@@ -845,6 +853,30 @@
         "order": 41,
         "width": 2,
         "height": 1
+    },
+    {
+        "id": "6d78cfb22008488d",
+        "type": "remote-config",
+        "name": "W7RN-UI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "qok0j3rzbc5yinzwsdy0ttjslnov8trwavt7lxgrfr17wnyv2ytz0aq2ypyj0zn3",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
+    },
+    {
+        "id": "7a6c50e8fd0b8a97",
+        "type": "remote-config",
+        "name": "W7RN-Program Access",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "nm39z610yz76sk874q6n27is5cxjpi9pgpawfr9afuzvsxk11hs16ll9392qp2f6",
+        "server": "nodered03.remote-red.com",
+        "region": "us"
     },
     {
         "id": "63961f2a09da6f1a",
@@ -6937,6 +6969,34 @@
             [
                 "a590311479ad9d58"
             ]
+        ]
+    },
+    {
+        "id": "261ab08c1df912cc",
+        "type": "remote-access",
+        "z": "f1002d99384289ae",
+        "confignode": "6d78cfb22008488d",
+        "name": "Dashboard Access",
+        "verbose": 0,
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "fd1c93ab51b4d6a6",
+        "type": "remote-access",
+        "z": "f1002d99384289ae",
+        "confignode": "7a6c50e8fd0b8a97",
+        "name": "Programming Access",
+        "verbose": 0,
+        "x": 200,
+        "y": 220,
+        "wires": [
+            [],
+            []
         ]
     }
 ]
